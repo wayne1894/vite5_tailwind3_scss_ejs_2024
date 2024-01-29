@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "rimraf dist && vite build",
     "preview": "vite preview",
-    "deploy": "rimraf dist && vite build && firebase deploy --only hosting",
+    "deploy": "rimraf dist && vite build && firebase deploy --only hosting"
   },
   "dependencies": {
     "autoprefixer": "^10.4.16",
