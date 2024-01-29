@@ -4,10 +4,9 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "rimraf dist && vite build && node imagesToWebp",
+    "build": "rimraf dist && vite build",
     "preview": "vite preview",
-    "deploy": "rimraf dist && vite build && node imagesToWebp && firebase deploy --only hosting",
-    "email": "node emailAutoSend"
+    "deploy": "rimraf dist && vite build && firebase deploy --only hosting",
   },
   "dependencies": {
     "autoprefixer": "^10.4.16",
