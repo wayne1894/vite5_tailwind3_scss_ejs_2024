@@ -1,6 +1,6 @@
 # vite5_tailwind3_scss_ejs_template
 
-- 這是一個使用 vite5 + tailwind3 + scss 的開發環境，並使用 ejs 做為模板引擎。
+- 這是一個使用 vite5 + scss 的開發環境，並使用 ejs 做為模板引擎。
 - 整合 firebase hosting ，可快速將網頁佈署到 fireabse 上 (firebase 需自行建立資源，並取代我的預設值)
 - 本架構可做為小型網站的建構工具
 
